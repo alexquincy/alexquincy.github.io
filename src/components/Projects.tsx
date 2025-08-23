@@ -1,4 +1,4 @@
-import { Card } from "@/components/ui/card";
+eryimport { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Github, ExternalLink, Star, GitFork } from "lucide-react";
@@ -11,21 +11,21 @@ const Projects = () => {
       title: "Streaming Analytics Platform",
       description: "A real-time analytics platform for monitoring streaming performance and user engagement metrics across Netflix's global infrastructure.",
       technologies: ["TypeScript", "React", "Node.js", "GraphQL", "AWS", "Redis"],
-      stars: 245,
-      forks: 89,
-      githubUrl: "#",
+      stars: 10,
+      forks: 5,
+      githubUrl: "https://github.com/ornate-bonzai/netflix-movies-and-tv-shows",
       liveUrl: "#",
       featured: true
     },
     {
       id: 2,
-      title: "Content Recommendation Engine",
-      description: "Machine learning powered recommendation system that personalizes content discovery for millions of users.",
-      technologies: ["Python", "TensorFlow", "Docker", "Kubernetes", "PostgreSQL"],
-      stars: 156,
-      forks: 42,
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Meshery",
+      description: "The collaborative cloud native manager.",
+      technologies: ["Golang", "CNCF", "Docker", "Kubernetes", "PostgreSQL"],
+      stars: 8,000,
+      forks: 3,000,
+      githubUrl: "https://github.com/meshery/meshery",
+      liveUrl: "https://play.meshery.io",
       featured: true
     },
     {
@@ -47,7 +47,7 @@ const Projects = () => {
       stars: 134,
       forks: 67,
       githubUrl: "#",
-      liveUrl: "#",
+      liveUrl: null,
       featured: false
     }
   ];
