@@ -22,8 +22,8 @@ const Projects = () => {
       title: "Meshery",
       description: "The collaborative cloud native manager.",
       technologies: ["Golang", "CNCF", "Docker", "Kubernetes", "PostgreSQL"],
-      stars: 8,000,
-      forks: 3,000,
+      stars: "8,000",
+      forks: "3,000",
       githubUrl: "https://github.com/meshery/meshery",
       liveUrl: "https://play.meshery.io",
       featured: true
