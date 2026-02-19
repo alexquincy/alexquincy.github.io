@@ -6,7 +6,7 @@ This site is configured for automatic deployment to GitHub Pages. Here's how it 
 
 1. **Push to main branch** - Any push to the `main` branch triggers automatic deployment
 2. **GitHub Actions** - The `.github/workflows/deploy.yml` workflow handles the build and deployment
-3. **Live site** - Your site will be available at `https://ornate-bonzai.github.io/ornate-bonzai/`
+3. **Live site** - Your site will be available at `https://alexquincy.github.io/`
 
 ## Setup Steps
 
@@ -16,11 +16,8 @@ This site is configured for automatic deployment to GitHub Pages. Here's how it 
 3. Under "Source", select **GitHub Actions**
 4. The workflow will automatically deploy on the next push
 
-### 2. Update Repository Name (if needed)
-If your repository name is different from `ornate-bonzai`, update the base path in:
-- `vite.config.ts` - Change the base path
-- `src/App.tsx` - Update the basename
-- `.github/workflows/deploy.yml` - Optionally update references
+### 2. Repository Type
+This repository is a user site (`alexquincy.github.io`), so both Vite `base` and router `basename` should stay rooted at `/`.
 
 ### 3. Custom Domain (Optional)
 To use a custom domain:
