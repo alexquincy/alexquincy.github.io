@@ -27,7 +27,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={import.meta.env.PROD ? '/ornate-bonzai' : ''}>
+      <BrowserRouter basename="/">
         <GitHubPagesRouter>
           <Routes>
             <Route path="/" element={<Index />} />
