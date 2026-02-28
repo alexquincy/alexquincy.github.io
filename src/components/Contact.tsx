@@ -54,11 +54,11 @@ const Contact = () => {
 
             const isExternal = info.link?.startsWith('http');
             return info.link ? (
-              <a key={index} href={info.link} className="block" target={isExternal ? '_blank' : undefined} rel={isExternal ? 'noopener noreferrer' : undefined}>
+              <a key={info.title} href={info.link} className="block" target={isExternal ? '_blank' : undefined} rel={isExternal ? 'noopener noreferrer' : undefined}>
                 {content}
               </a>
             ) : (
-              <div key={index}>
+              <div key={info.title}>
                 {content}
               </div>
             );
