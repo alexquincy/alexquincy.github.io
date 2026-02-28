@@ -69,7 +69,7 @@ const Navigation = () => {
               </a>
             </Button>
             <Button variant="ghost" size="sm" asChild>
-              <a href="mailto:alexquinn385@gmail.com">
+              <a href="mailto:alexquinn385@gmail.com" aria-label="Email Alex Quinn">
                 <Mail className="h-4 w-4" />
               </a>
             </Button>
