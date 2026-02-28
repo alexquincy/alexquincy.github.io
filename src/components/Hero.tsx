@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
+import { Github, Linkedin, Mail, ArrowDown, Twitter } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 
 const Hero = () => {
@@ -25,6 +25,15 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center space-y-8 max-w-4xl mx-auto px-6">
+        {/* Profile Photo */}
+        <div className="flex justify-center">
+          <img
+            src="https://avatars.githubusercontent.com/u/227241865?s=400&u=62bfc3795b5032faa2e8de2304dfa346d52c695e&v=4"
+            alt="Alex Quinn"
+            className="w-28 h-28 rounded-full border-4 border-primary/30 shadow-elegant object-cover"
+          />
+        </div>
+
         <div className="space-y-4">
           <h1 className="font-display text-6xl md:text-8xl font-semibold tracking-tight">
             <span className="bg-gradient-primary bg-clip-text text-transparent">
@@ -80,10 +89,18 @@ const Hero = () => {
             <Linkedin className="h-6 w-6" />
           </a>
           <a 
-            href="mailto:alex@example.com" 
+            href="mailto:alexquinn385@gmail.com" 
             className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform"
           >
             <Mail className="h-6 w-6" />
+          </a>
+          <a 
+            href="https://x.com/qualexy_" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform"
+          >
+            <Twitter className="h-6 w-6" />
           </a>
         </div>
       </div>

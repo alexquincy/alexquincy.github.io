@@ -69,7 +69,7 @@ const Navigation = () => {
               </a>
             </Button>
             <Button variant="ghost" size="sm" asChild>
-              <a href="mailto:alex@example.com">
+              <a href="mailto:alexquinn385@gmail.com" aria-label="Email Alex Quinn">
                 <Mail className="h-4 w-4" />
               </a>
             </Button>
@@ -125,7 +125,7 @@ const Navigation = () => {
                   className="w-full justify-start" 
                   asChild
                 >
-                  <a href="mailto:alex@example.com">
+                  <a href="mailto:alexquinn385@gmail.com">
                     <Mail className="mr-2 h-4 w-4" />
                     Email
                   </a>
